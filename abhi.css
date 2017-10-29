@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+ <meta charset="utf-8">
+
+ 
+<title>Registration</title>
+<!--code by Name:Abhishek RedID: 822056658 -->
+
+<style>
+
+body{
+width:100%;
+margin: 0;
+
+}
+
+form {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0.3em;
+}
+
+*[role="form"] h2 {
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+
+#phone,#area_phone,#prefix_phone{
+  width: 80px;
+  
+  margin-top: 10px;
+}
+.container2{
+  width: 100%;
+  height: auto;
+}
+label{
+  float: left;
+}
+
+
+h1{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#validate{
+  margin-left: 20px;
+}
+
+div.container{
+      width: 80%; 
+      height: 100%;
+      background-color: black;
+     
+            /* Center the DIV horizontally */
+    }
+
+
+  img.banner
+  { padding-top: 20px;
+    width:102.5%;
+    height: auto;
+    margin-left: -14px;
+   
+
+  }
+    .fixed-header, .fixed-footer{
+        width: 80%;
+        color: #fff;
+        padding-bottom: 10px;
+        padding-top: 10px;
+       margin-left: -15px;
+        background-color:#25383C; 
+        text-align: center;
+        position: fixed;
+    }
+  
+  a{
+      color: white;
+    }
+
+  a:hover { 
+    background-color: white;
+    }
+
+p
+{
+  text-align: center;
+  color: white;
+}
+
+ img.googlemap
+ {
+  width: 50%;
+  height: auto;
+  padding-top: 10px;
+  margin-bottom: 60px;
+
+
+ }
+
+ .maplink{
+  width: 50%;
+  height: auto;
+  margin-left: 25%;
+  padding-top: 20px;
+
+ }
+.galleryItem {
+ float: left;
+ width: 30%;
+padding-top: 80px;
+padding-left: 130px;
+ 
+}
+
+img.gallery{
+width: 200px;
+height: 150px;
+}
+
+ 
+.galleryItem h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+   
+}
+
+ h1{ padding-top: 10px;
+  text-align: center;
+ background-color: white;
+padding-bottom: 10px;
+ }
+
+ 
+h2{
+ width:100%;
+padding-top: 15px;
+text-align: center;
+}
+
+    .fixed-header{
+        top: 0;
+        font-size: x-large;
+    }
+    .fixed-footer{
+        bottom: 0;
+      }
+  </style>

@@ -1,0 +1,110 @@
+<title>Example</title>
+<!--code by Name:Abhishek RedID: 822056658 -->
+
+<style>
+
+body{
+width:100%;
+margin: 0;
+
+}
+
+div.container{
+      width: 80%; 
+      height: auto;
+      background-color: black;
+     
+            /* Center the DIV horizontally */
+    }
+
+div.containerTimer{
+      width: 80%; 
+      height: 50%;
+      background-color: cyan;
+      margin-top: -1.4%;
+      margin-left: 10%;
+    
+      
+         /* Center the DIV horizontally */
+    }
+
+  img.banner
+  { padding-top: 20px;
+    width:102.5%;
+    margin-left: -14px;
+
+
+  }
+    .fixed-header, .fixed-footer{
+        width: 80%;
+        color: #fff;
+        padding-bottom: 10px;
+        padding-top: 10px;
+       margin-left: -15px;
+        background-color:#25383C; 
+        text-align: center;
+        position: fixed;
+
+
+    }
+    a{
+      color: white;
+    }
+
+.countdown {
+   
+  text-align: center;
+  font-size: 60px;
+  width: 100%;
+}
+
+ img.googlemap
+ {
+  width: 50%;
+  height: auto;
+  margin-left: 25%;
+  padding-bottom: 100px;
+ 
+
+ }
+.galleryItem {
+    
+  float: left;
+  width: 30%;
+padding-top: 20px;
+padding-left: 130px;
+ 
+}
+img.gallery{
+width: 200px;
+height: 150px;
+}
+
+ 
+.galleryItem h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+ h1{
+  text-align: center;
+ background-color: white;
+
+ }
+  
+ 
+h2{
+ width:100%;
+padding-top: 15px;
+text-align: center;
+}
+
+    .fixed-header{
+        top: 0;
+        font-size: x-large;
+    }
+    .fixed-footer{
+        bottom: 0;
+      }
+  </style>

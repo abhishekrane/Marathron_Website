@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<head>
+<!--code by Name:Abhishek RedID: 822056658 -->
+  <title>Marathon</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <Script type="text/javascript" src="function.js"></script>
+
+  <link rel="stylesheet" href="abhi.css" type="text/css">
+</head>
+
+<body>
+
+  <form class="form-horizontal"  id="Register" enctype="multipart/form-data"  method="post" action="http://jadran.sdsu.edu/~jadrn000/echo.php">
+    
+    <div class="container2">
+      <h1>Registration Form</h1>
+
+              <div class="form-group">
+                 <label for="firstName" class="col-sm-3 control-label">First Name</label>
+                    <div class="col-sm-9">
+                    <input type="text" id="firstName" name="firstName" placeholder="First Name" class="form-control" autofocus required="required" >          
+                    </div>
+              </div>
+
+               <div class="form-group">
+                 <label for="middleName" class="col-sm-3 control-label">Middle Name</label>
+                   <div class="col-sm-9">
+                     <input type="text" id="middleName" name="middleName" placeholder="Middle Name (Optional)" class="form-control" >
+                   </div>
+                </div>
+
+        <div class="form-group">
+            <label for="lastName" class="col-sm-3 control-label">Last Name</label>
+              <div class="col-sm-9">
+                <input type="text" id="lastName" name="lastName" placeholder="Last Name" class="form-control"  required="required">
+             </div>
+        </div>
+
+
+               <div class="form-group">
+                 
+							     <label for="address" class="col-sm-3  control-label">Address</label>
+						            <div class="col-sm-9">
+                        <input type="text" id="address" name="address1" placeholder="Address 1" class="form-control"  required="required">
+                         <input type="text"  name="address2" placeholder="Address 2 (Optional)" class="form-control" >
+                      </div>
+			       	</div>
+
+
+						<div class="form-group">
+							
+						   <label for="city" class="col-sm-3 control-label">City</label>
+							   <div class="col-sm-9">
+								   <input type="text" id="city" name="city" placeholder="Enter City Name Here.." class="form-control"  required="required">
+							   </div>	
+						</div>
+
+								<div class="form-group">
+
+							<label for="state" class="col-sm-3 control-label">State</label>
+								   <div class="col-sm-9">
+								   <input type="text" id="state" name="state" placeholder="Enter State Name Here.." class="form-control"  required="required">
+								</div>	
+							</div>
+
+
+
+							<div class="form-group">
+               	<label for="zip" class="col-sm-3 control-label">Zip</label>
+								  <div class="col-sm-9">
+								    <input type="text" id="zip" name="zip" placeholder="Enter Zip Name Here.." class="form-control" maxlength="5" required="required">
+								  </div>	
+							</div>
+
+
+
+	            <div class="form-group">
+                 <label for="phone" class="col-sm-3 control-label">Phone Number</label>
+                 <div class="col-sm-9" >
+                    (<input type="text" name="area_phone" id="area_phone" class="phone"  required="required" maxlength="3" minlength="3" />)- 
+                     <input type="text" name="prefix_phone" id="prefix_phone" class="phone" required="required"  maxlength="3" minlength="3" />-
+                   <input type="text" name="phone" id="phone" class="phone"  required="required"  maxlength="4" minlength="4" />
+                </div> 
+              </div>
+			
+
+
+				      <div class="form-group">
+                     <label for="email" class="col-sm-3 control-label">Email</label>
+                        <div class="col-sm-9">
+                        <input type="email" id="email" name="email" placeholder="Email" class="form-control"  required="required"> 
+                    </div>
+              </div>
+
+              
+              <div class="form-group">
+                    <label class="control-label col-sm-3">Gender</label>
+                    <div class="col-sm-9">
+                        <div class="row">
+                           <div class="col-sm-4">
+              					   <input type="radio" name="gender" value="male" id="male" required="required" /> Male </div>
+         				              <div class="col-sm-4">			
+            				          <input type="radio" name="gender" value="female" id="female"/> Female </div>
+         				           <div class="col-sm-4">
+           				    	   <input type="radio" name="gender" value="others" id="others"/> Others </div>
+                          </div>
+                    </div>
+              </div>
+
+         
+
+
+            <div class="form-group">
+              <label for="image" class="col-sm-3 control-label" >Image</label>
+                <div class="col-sm-9" >
+  		            <input class="col-sm-9" type="file" name="user_pic" id="image" accept="image/*"  required="required"/>
+                  <input type="button" id="fbutton" value="validate " />
+                </div>
+            </div>
+          
+
+            <div class="form-group">
+                <div class="col-sm-9 col-sm-offset-3"></div>
+                    <label for="birthDate" class="col-sm-3 control-label">Date of Birth</label>
+                    <div class="col-sm-9" >
+                       month <input type="text" id="birthDate" size="2" name="month" required="required"/>
+                       day <input type="text" size="2" name="day" required="required"/>
+                     year<input type="text" size="2"  name="year" required="required"/>
+
+                     <input type="button" id="validate" value="Validate " >
+                    </div>
+                </div>
+     
+            
+
+
+            <div class="form-group">
+              <label for="category" class="col-sm-3 control-label" >Category</label>
+                <div class="col-sm-9">
+                  <div class="row">
+                      <div class="col-sm-4">
+                      <input type="radio" name="category" value="teen" id="category"  required="required"/> Teen </div>
+                    <div class="col-sm-4">			
+                    <input type="radio" name="category" value="adult" /> Adult </div>
+                  <div class="col-sm-4">
+           	      <input type="radio" name="category" value="senior" /> Senior </div>
+                </div>
+            </div>
+          </div>
+
+
+            <div class="form-group">
+               <div class="col-sm-9 col-sm-offset-3"></div>
+                    <label for="experience" class="col-sm-3 control-label">Experience Level</label>
+                    <div class="col-sm-9">
+                          <select  id="experience" name="experience" class="form-control"  required="required" >
+                              <option value="">Select Experience Level</option>
+    						              <option value="Expert">Expert</option>
+    						              <option value="Experienced">Experienced</option>
+   							              <option value="Novice">Novice</option>
+                          </select> 
+                    </div>
+
+                </div> 
+
+
+
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="medical">Medical Condition</label>
+               <div class="col-md-9">                     
+                  <textarea class="form-control" id="medical" name="Medical Condition" placeholder="Enter here"  ></textarea>
+               </div>
+            </div>
+
+
+                <div class="form-group">
+                    <div class="col-sm-9 col-sm-offset-3">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"  required="required">I accept 
+                            </label>
+                        </div>
+                    </div>
+                </div> <!-- /.form-group -->
+
+
+
+                <div class="form-group">
+                    <div class="col-sm-9 col-sm-offset-3">
+                        <button type="submit" class="btn btn-primary btn-block" id="submit">Register</button>
+                    </div>
+                </div> 
+     </div>
+  </form> <!-- /form -->
+</body>   <!-- ./container -->
